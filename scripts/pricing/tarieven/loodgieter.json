@@ -1,0 +1,38 @@
+{
+  "service_type": "loodgieter",
+  "currency": "EUR",
+  "pricing": {
+    "min": {
+      "label": "Min",
+      "unit": "uur",
+      "rate": 55
+    },
+    "medium": {
+      "label": "Medium",
+      "unit": "uur",
+      "rate": 65
+    },
+    "max": {
+      "label": "Max",
+      "unit": "uur",
+      "rate": 80
+    }
+  },
+  "materials": [
+    {
+      "category": "leidingmateriaal",
+      "options": [
+        { "id": "LM-KUNSTSTOF", "label": "Kunststof leidingen", "segment": "basic" },
+        { "id": "LM-KOPER", "label": "Koperen leidingen", "segment": "medium" },
+        { "id": "LM-RVS", "label": "RVS leidingen", "segment": "hoog" }
+      ]
+    },
+    {
+      "category": "fittingen",
+      "options": [
+        { "id": "FT-STANDAARD", "label": "Standaard fittingen", "segment": "basic" },
+        { "id": "FT-HOOG", "label": "Hoogwaardige fittingen", "segment": "hoog" }
+      ]
+    }
+  ]
+}
