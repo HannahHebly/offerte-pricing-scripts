@@ -1,0 +1,15 @@
+{
+  "service_type": "tegelzetten",
+  "currency": "EUR",
+  "items": [
+    {
+      "id": "TZ-BASIS",
+      "variant": "Basis tegelzetten",
+      "unit": "m2",
+      "base_price": 45,
+      "complexity_factor": 1.0,
+      "rush_multiplier": 1.2,
+      "notes": "Standaard tegels, rechte patronen."
+    }
+  ]
+}
