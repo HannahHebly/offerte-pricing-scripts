@@ -1,15 +1,45 @@
 {
   "service_type": "tegelzetten",
   "currency": "EUR",
-  "items": [
-    {
-      "id": "TZ-BASIS",
-      "variant": "Basis tegelzetten",
+  "pricing": {
+    "min": {
+      "label": "Min",
       "unit": "m2",
-      "base_price": 45,
-      "complexity_factor": 1.0,
-      "rush_multiplier": 1.2,
-      "notes": "Standaard tegels, rechte patronen."
+      "rate": 35
+    },
+    "medium": {
+      "label": "Medium",
+      "unit": "m2",
+      "rate": 45
+    },
+    "max": {
+      "label": "Max",
+      "unit": "m2",
+      "rate": 60
+    }
+  },
+  "materials": [
+    {
+      "category": "tegelsoort",
+      "options": [
+        { "id": "TS-BASIC", "label": "Basic tegels", "segment": "basic" },
+        { "id": "TS-MEDIUM", "label": "Medium segment tegels", "segment": "medium" },
+        { "id": "TS-HOOG", "label": "Hoog segment tegels", "segment": "hoog" }
+      ]
+    },
+    {
+      "category": "voegmiddel",
+      "options": [
+        { "id": "VM-STANDAARD", "label": "Standaard voegmiddel", "segment": "basic" },
+        { "id": "VM-LUXE", "label": "Luxe voegmiddel (kleurvast)", "segment": "hoog" }
+      ]
+    },
+    {
+      "category": "lijm",
+      "options": [
+        { "id": "LJ-STANDAARD", "label": "Standaard tegellijm", "segment": "basic" },
+        { "id": "LJ-HOOG", "label": "Hoogwaardige flexlijm", "segment": "hoog" }
+      ]
     }
   ]
 }
