@@ -1,0 +1,38 @@
+{
+  "service_type": "stucen",
+  "currency": "EUR",
+  "pricing": {
+    "min": {
+      "label": "Min",
+      "unit": "m2",
+      "rate": 14
+    },
+    "medium": {
+      "label": "Medium",
+      "unit": "m2",
+      "rate": 18
+    },
+    "max": {
+      "label": "Max",
+      "unit": "m2",
+      "rate": 24
+    }
+  },
+  "materials": [
+    {
+      "category": "gipstype",
+      "options": [
+        { "id": "GP-STANDAARD", "label": "Standaard gips", "segment": "basic" },
+        { "id": "GP-FIJN", "label": "Fijn afwerk gips", "segment": "medium" },
+        { "id": "GP-HOOG", "label": "Hoogwaardige gipsafwerking", "segment": "hoog" }
+      ]
+    },
+    {
+      "category": "afwerking",
+      "options": [
+        { "id": "AF-SAUSKLAAR", "label": "Sausklaar afwerking", "segment": "medium" },
+        { "id": "AF-STRUKTUUR", "label": "Structuurafwerking", "segment": "hoog" }
+      ]
+    }
+  ]
+}
