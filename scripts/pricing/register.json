@@ -1,9 +1,8 @@
 {
   "diensten": [
-    {
-      "id": "tegelzetten",
-      "label": "Tegelzetten",
-      "bestand": "tarieven/tegelzetten.json"
-    }
+    { "id": "tegelzetten", "label": "Tegelzetten", "bestand": "tarieven/tegelzetten.json" },
+    { "id": "loodgieter", "label": "Loodgieter", "bestand": "tarieven/loodgieter.json" },
+    { "id": "stucen", "label": "Stucen", "bestand": "tarieven/stucen.json" },
+    { "id": "elektricien", "label": "Elektricien", "bestand": "tarieven/elektricien.json" }
   ]
 }
