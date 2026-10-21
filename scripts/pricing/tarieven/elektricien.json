@@ -1,0 +1,38 @@
+{
+  "service_type": "elektricien",
+  "currency": "EUR",
+  "pricing": {
+    "min": {
+      "label": "Min",
+      "unit": "uur",
+      "rate": 50
+    },
+    "medium": {
+      "label": "Medium",
+      "unit": "uur",
+      "rate": 60
+    },
+    "max": {
+      "label": "Max",
+      "unit": "uur",
+      "rate": 75
+    }
+  },
+  "materials": [
+    {
+      "category": "bekabeling",
+      "options": [
+        { "id": "BK-STANDAARD", "label": "Standaard kabel (YMvK)", "segment": "basic" },
+        { "id": "BK-LUXE", "label": "Luxe kabel (laag halogeen)", "segment": "hoog" }
+      ]
+    },
+    {
+      "category": "schakelmateriaal",
+      "options": [
+        { "id": "SM-BASIC", "label": "Basic schakelmateriaal", "segment": "basic" },
+        { "id": "SM-MEDIUM", "label": "Design schakelmateriaal", "segment": "medium" },
+        { "id": "SM-HOOG", "label": "Premium design schakelmateriaal", "segment": "hoog" }
+      ]
+    }
+  ]
+}
