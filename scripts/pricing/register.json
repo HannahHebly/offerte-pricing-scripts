@@ -1,3 +1,9 @@
 {
-  "diensten": []
+  "diensten": [
+    {
+      "id": "tegelzetten",
+      "label": "Tegelzetten",
+      "bestand": "tarieven/tegelzetten.json"
+    }
+  ]
 }
